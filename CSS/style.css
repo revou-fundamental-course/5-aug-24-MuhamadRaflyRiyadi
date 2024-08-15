@@ -1,0 +1,112 @@
+html, body  {
+    background-color: #e1e4e6;
+}
+/* navbar */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    background-color: darkviolet;
+}
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+.first{
+    color: white;
+    font-weight: 700;
+}
+.last {
+    font-family: Poppins;
+    color: #eb5f28;
+    font-weight: 400;
+    padding-left: 3px;
+    text-shadow: 1px 2px 1px black;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    height: 40px;
+    border: 1px solid #B3D7E9;
+}
+
+.input-group-addon {
+    background-color: #CCE4F0;
+    border: 1px solid #b3d7e9;
+}
+
+/*footer css*/
+footer{
+    background: linear-gradient(45deg,#371f58,rgba(68, 141, 184, 0.2),#6e839c,#587a5d);
+    background-size: 350% 200%;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+   
+}
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+
+}
+
+.footerBottom{
+    padding: 10px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+ /* Tampilan untuk layar dengan lebar maksimum 480px (Mobile) */
+    @media screen and (max-width: 480px) 
+    {
+
+.brand {
+    margin-top: 20px;
+    font-size: 16px;
+  
+}
+
+.tmbl {
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.konsultasi {
+        margin-top: 10px;
+        margin-bottom: 5px;
+}
+.app {
+     margin-top: 15px;
+     margin-bottom: 5px;
+}
+
+}
